@@ -1,0 +1,129 @@
+/* Community.css */
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Community-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #F9C6B5, #BE505E);
+    font-family: "Roboto";
+    color: #560000;
+}
+
+.Community-title {
+    font-weight: 700;
+    font-size: 3vw;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+.Community-description {
+    font-weight: 300;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.Community-posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 4vh;
+    flex-wrap: wrap;
+}
+
+.Community-posts-post {
+    background-color: #fff;
+    border-radius: 1vh;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.Community-profile-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+}
+
+img.Community-profile-photo {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-wrap: wrap;
+    border: transparent;
+    flex-wrap: wrap;
+}
+
+.Community-user-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1vh;
+    color: #560000;
+    flex-wrap: wrap;
+
+}
+
+.Community-post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Community-posts-post h3 {
+    font-size: 1.5vw;
+    margin-bottom: .5vh;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.Community-posts-post p {
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #000;
+    flex-wrap: wrap;
+}
+
+.Community-posts-post time {
+    font-size: 1vw;
+    font-weight: 300;
+    flex-wrap: wrap;
+}
+
+.Community-profile-photo {
+    /* Default color for profile photo if it doesn't exist */
+    background-color: #560000;
+}
+
+.Community-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.Community-copyright h1{
+    font-size: 1.2vw;
+    font-weight: 300;
+    margin-bottom: 2vh;
+}
+
+.Community-copyright p{
+    font-size: 1vw;
+    font-weight: 200;
+}
